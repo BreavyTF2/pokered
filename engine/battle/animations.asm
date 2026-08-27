@@ -2582,7 +2582,7 @@ BattleAnimCopyTileMapToVRAM:
 TossBallAnimation:
 	ld a, [wIsInBattle]
 	cp TRAINER_BATTLE
-	jr z, .BlockBalln
+	jr z, .BlockBall
 	ld a, [wPokeBallAnimData]
 	ld b, a
 
